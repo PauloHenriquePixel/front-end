@@ -1,0 +1,85 @@
+.paragrafo{
+    color: rgb(62, 165, 255);
+}
+
+body{
+    background-color: black;
+}
+
+.titulo{
+    text-align: center;
+    color: rgb(62, 165, 255);
+}
+
+.h2{
+    color:rgb(62, 165, 255);
+    text-align: center;
+}
+
+.andvsios{
+    color:rgb(62, 165, 255) ;
+}
+
+.beneficios{
+    color:rgb(62, 165, 255) ;
+}
+
+.h3{
+    color:rgb(62, 165, 255) ;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    margin: 250px;
+    color: rgb(62, 165, 255);
+}
+
+a:hover{
+    background-color: rgb(135, 206, 235);
+}
+
+/* .div1> button {
+    display: inline-block;
+  padding: 10px;
+  margin: 20px;
+} */
+
+button:hover{
+    background-color:rgb(135, 206, 235) ;
+}
+
+.div1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+      
+
+}
+
+.div1>button{
+  width: 150px; /* define a largura do botão */
+  padding: 10px;
+  margin: 10px;
+}
+
+
+/* .div1{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+} */
+
+.butt{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    top: 20%;
+}
+
+.pp{
+    background-color: black;
+}
