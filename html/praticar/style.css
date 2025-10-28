@@ -31,21 +31,18 @@ body{
 
 a{
     text-decoration: none;
-    margin: 250px;
     color: rgb(62, 165, 255);
+    
+    
 }
 
 a:hover{
     background-color: rgb(135, 206, 235);
 }
 
-/* .div1> button {
-    display: inline-block;
-  padding: 10px;
-  margin: 20px;
-} */
 
-button:hover{
+
+.butt:hover{
     background-color:rgb(135, 206, 235) ;
 }
 
@@ -54,32 +51,139 @@ button:hover{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-      
-
-}
-
-.div1>button{
-  width: 150px; /* define a largura do botão */
-  padding: 10px;
-  margin: 10px;
 }
 
 
-/* .div1{
-    display:flex ;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
 
-} */
 
-.butt{
+/* .butt a{
     display: inline-block;
-    width: 100px;
     text-align: center;
-    top: 20%;
-}
+    height: 10px;
+    width: 90px;
+} */
 
 .pp{
     background-color: black;
 }
+
+.linkhtml{
+   display: inline-block;
+    padding: 10px 20px;
+    font-size: 17px;
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    color: #ffff;
+    border-radius: 8px;
+}
+
+.divlink:hover{
+    text-align: center;
+    margin-top: 50px;
+    background-color: #000000;
+}
+
+.divlink{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border: 2px solid- white;
+}
+
+.A51{
+    color:rgb(135, 206, 235) ;
+    text-align: center;
+}
+
+.a51produto{
+    color:rgb(135, 206, 235) ;
+    text-align: center;
+}
+
+.foto{   
+    display: block;
+    margin: 20px auto;
+    height: 300px;
+}
+
+.p14link{
+    color:rgb(135, 206, 235);
+    text-align: center;
+}
+
+
+
+.butt {
+    text-align: center;
+    margin: 0;
+ 
+}
+
+.buttprojeto {
+  display: inline-block;
+    padding: 10px 20px;
+    font-size: 17px;
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    color: #ffff;
+    border-radius: 8px;
+}
+
+.h1projeto{
+    color:rgb(135, 206, 235);
+    text-align: center;
+}
+
+.p12projeto{
+    text-align: center;
+    color: rgb(135, 206, 235);
+}
+
+.imgp14{
+    display: block;
+    margin: 20px auto;
+    height: 300px;
+}
+
+.meu-botao{
+  display: inline-block; /* permite centralização com text-align */
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 8px;
+}
+
+.container{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.divlink{
+    color:rgb(135, 206, 235);
+    text-align: center;
+}
+
+
+
+.butt{
+    text-align: center;
+    margin-bottom: 50px;
+    border-radius: 1px ;
+}
+
+.butt:hover{
+    background-color:rgb(135, 206, 235) ;
+}
+
+
+
