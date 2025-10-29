@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(192, 247, 247);
+}
+
+.bancoh1{
+    color: darkgray;
+    text-align: center;
+}
+
+.pbanco{
+    text-align: center;
+    color:darkgray ;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border: 2px solid- white;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:darkgray;
+}
+
+.container {
+  display: flex;
+  align-items: center; 
+  background-color: #b0f8f8; 
+  padding: 10px;
+  border: 4px solid white;
+}
+
+.imagem {
+  width: 400px; 
+  margin-right: 20px; 
+}
+
+.texto {
+  font-size: 16px;
+  color: #000;
+}
+
+.div3{
+    text-align: center;
+    color:darkgray ;
+}
+
+.div3{
+  display: flex;
+  align-items: center; /* centraliza verticalmente */
+  background-color: #c0ffff; /* cor de fundo igual à da imagem */
+  padding: 10px;
+  border: 4px solid white;
+  color: #000;
+}
+
+.imgbit {
+  width: 500px; /* ajuste conforme o tamanho desejado */
+  margin-right: 20px; /* espaço entre imagem e texto */
+  border-radius: 10px;
+  height: 300px;
+}
+
+.imgdinheiro{
+    width: 400px; 
+  margin-right: 20px; 
+}
+
+.div4{
+    display: flex;
+  align-items: center; /* centraliza verticalmente */
+  background-color: #c0ffff; /* cor de fundo igual à da imagem */
+  padding: 10px;
+  border: 4px solid white;
+  color: #000;
+}
+
+
+.div5{
+  display: flex;
+  align-items: center; /* centraliza verticalmente */
+  background-color: #c0ffff; /* cor de fundo igual à da imagem */
+  padding: 10px;
+  border: 4px solid white;
+  color: #000;
+}
+
+.pimg{
+  font-size: 16px;
+  color: #000;
+}
