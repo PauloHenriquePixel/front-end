@@ -1,20 +1,20 @@
-function soma(a, b) {
-    console.log(`soma de ${a} é ${b} e igual a ${a + b }`)
+// for(i = 1 ; i < 11; i++)
+// { let a = 2
+// console.log(`${i} X ${a} = ${i * a}`)
+// }
+
+// let a = 2;
+// let i = 1
+// do {
+    
+    
+//     console.log(`a multi e ${a} X ${i} = ${a * i}`)
+//     i++
+// } while(i < 11 )
+
+let numero = 1
+let Numero= 2
+while(numero <= 10) {
+console.log(`toma sua multi aki cadela ${numero} X ${Numero} = ${numero * Numero}`)
+ numero++
 }
-soma(2, 2)
-
-function div(a, b){
-    console.log(`a div entre ${a} é ${b} e igual a ${a / b}`)
-}
-
-div(100000000000000000000, 90)
-
-function mult(a, b){
-    console.log(`a mult entre ${a} é ${b} e igual a ${a * b}`)
-}       
-mult(2, 3)
-
-function sub(a, b){
-    console.log(`a subtração entre ${a} é ${b} e igual a ${a - b}`)
-}          
-sub(5, 2)
