@@ -55,3 +55,14 @@
 //         console.log(${i2} x ${j2} = ${i2 * j2});
 //     }
 // }
+
+
+
+// for(i = 1; i < 101 ; i++){
+//     console.log(i)
+// }
+
+let furtas = ["banana" , "maca" , "uva"]
+    for(let i = 0; i < 3; i++){
+        console.log(furtas[i]);
+}

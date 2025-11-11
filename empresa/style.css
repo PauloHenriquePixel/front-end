@@ -46,6 +46,7 @@
           width: 20%;
           border-radius: 20px;
           border: 1px solid rgb(204, 14, 141);
+          border-radius: none;
         }
 
         .sobre_titulo {

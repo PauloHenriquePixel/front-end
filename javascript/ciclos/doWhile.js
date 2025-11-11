@@ -34,3 +34,19 @@
 //     numero ++;
 //     if(numero > 6) break;
 // } while (numero <= 10);
+
+
+// let numero = 5
+// let Numero = 2
+// do {
+//     console.log(`o valor de ${numero} é ${Numero} e = : ${numero * numero}`)
+//     numero ++;
+// } while (numero < 11);
+
+// let a = '0'
+
+// do {
+//     console.log(`Numero ${a}`)
+//     a++;
+// } while (a < 11);
+
