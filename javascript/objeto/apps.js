@@ -15,6 +15,7 @@ function pessoa2 (nm,ap ,tlf){
     this.telefone = tlf
 }
 const p2 = new pessoa2 ("Ana", "Castela", "11 1847294-1010" )
+
 console.log(p2.nome)
 console.log(p2.apelido)
 console.log(p2.telefone)
