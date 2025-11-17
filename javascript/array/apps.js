@@ -73,4 +73,11 @@
 
 // for(i = 0; i < clientes.length; i++) {
 //     console.log(O(A) cliente ${clientes[i].nome} tem ${clientes[i].idade} anos de idade)
-// }
+// }    
+// let frutas = ['banana', 'maçã', 'laranja']
+// frutas.push('uva')
+// console.log(frutas)
+
+// let casa = ['mesa', 'cadeira', 'fogão', 'geladeira']
+// casa.push('microondas')
+// console.log(casa)
