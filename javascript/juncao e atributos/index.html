@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+   <h1 id="titulo">titulo</h1>
+
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ48gR5XDZPpi5F8QEitXQUPEBvgeksGD2OKg&s" alt="">
+
+   <script>
+    let elemento = document.querySelector("h1");
+    let elemento2 = document.querySelector("img");
+   
+   if (elemento.hasAttribute('id')){
+    console.log('sim')
+   }
+   
+   console.log(elemento.getAttribute('id'))
+   
+
+   elemento.setAttribute('class', 'quem leu e gay');
+   console.log(elemento)
+   
+   console.log(elemento2)
+   console.log(elemento2.attributes)
+   </script>
+
+
+</body>
+</html>
