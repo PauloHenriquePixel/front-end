@@ -1,0 +1,50 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: arial, sans-serif;
+    background-color: black;
+}
+
+.navegacao{
+    display: flex;
+    justify-content:end;
+    margin-right: 100px;
+    gap: 25px;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+.sec-pai {
+    color: white;
+    text-align: center;
+}
+
+.sec-segndaria{
+    text-align: center;
+    color: white;
+    margin: 90px;
+}
+
+.bnt{
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.img{
+    height: 200px;
+}
+
+.produto-2{
+    color: white;   
+}
+
+.conteiner{
+    display: flex;
+    justify-content: space-around;
+}

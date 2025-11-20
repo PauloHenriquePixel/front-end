@@ -1,34 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Pizzaria</title>
 </head>
 <body>
     
-   <h1 id="titulo">titulo</h1>
-
-   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ48gR5XDZPpi5F8QEitXQUPEBvgeksGD2OKg&s" alt="">
-
-   <script>
-    let elemento = document.querySelector("h1");
-    let elemento2 = document.querySelector("img");
-   
-   if (elemento.hasAttribute('id')){
-    console.log('sim')
-   }
-   
-   console.log(elemento.getAttribute('id'))
-   
-
-   elemento.setAttribute('class', 'quem leu e gay');
-   console.log(elemento)
-   
-   console.log(elemento2)
-   console.log(elemento2.attributes)
-   </script>
+    <nav>
+        <ol class="navegacao">
+            <li><a href="#"><i class="fa-solid fa-basket-shopping fa-2x" style="color: #ffffff;"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-user fa-2x"  style="color: #ffffff;"></i></a></li>
+            <li><a href="#"><i class="fa-solid fa-phone fa-2x" style="color: #ffffff;"></i></a></li>
+        </ol>
+    </nav>
 
 
+
+    <section class="sec-pai">
+        <div class="texto">
+            <h2>Bem-vindo à Pizzaria Pauloja</h2>
+            <p>Escolha sua pizza favorita e aproveite!</p>
+            
+        </div>
+    </section>
+
+     <section class="sec-segndaria">
+       
+       
+        <div class="conteiner">
+         <div class="texto-2">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkSMiKaN6KCRR0PVCV-zjtIYToLPuFEN1_Gw&sq=80" alt="">
+            <h2>Pizza sabor novo</h2>
+            <p>Tamanho familia</p>
+            <button class="bnt">Peça Agora</button>
+
+
+        
+        </div>
+        <div>
+            <img class="img" src="https://media.istockphoto.com/id/938742222/pt/foto/cheesy-pepperoni-pizza.jpg?s=612x612&w=0&k=20&c=IMbsKsB8sD78lAiCFax9rJAfl9nMvvRurZkrmNIZMQA=" alt="">
+            <h2>Pizza sabor Queijo</h2>
+            <p>Tamanho familia</p>
+            <button class="bnt">Peça Agora</button>
+        </div>
+
+        <div>
+            <img class="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7zx5fXK8YZmb5cz0Tm2X8ResuB4PjLsE9Rw&s" alt="">
+            <h2>Pizza sabor Queijo</h2>
+            <p>Tamanho familia</p>
+            <button class="bnt">Peça Agora</button>
+        </div>
+        
+        </div>
+    </section>
 </body>
 </html>
