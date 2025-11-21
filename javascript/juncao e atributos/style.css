@@ -38,6 +38,7 @@ body{
 
 .img{
     height: 200px;
+    width: 300px;
 }
 
 .produto-2{
@@ -47,4 +48,74 @@ body{
 .conteiner{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+/* .prod{
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    height: 350px;
+    width: 300px;
+}
+
+.prod>.img{
+   width: 100%;
+} */
+
+/* CARD BASE */
+.prod {
+    width: 300px;
+    height: 350px;
+    /* border: 2px solid white; */
+    border-radius: 10px;
+    padding: 0;
+    perspective: 1000px; /* ativa o 3D */
+    
+}
+
+/* Parte interna que gira */
+.prod .inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: .7s;
+    transform-style: preserve-3d;
+}
+
+/* Efeito ao passar o mouse */
+.prod:hover .inner {
+    transform: rotateY(180deg);
+    border-color: orange;
+    border: 2px solid orange;
+}
+
+/* Frente e verso */
+.front, .back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Frente */
+.front img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Verso começa virado */
+.back {
+    background: rgba(0,0,0,0.8);
+    color: white;
+    transform: rotateY(180deg);
 }
