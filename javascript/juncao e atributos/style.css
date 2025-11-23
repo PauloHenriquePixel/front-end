@@ -119,3 +119,21 @@ body{
     color: white;
     transform: rotateY(180deg);
 }
+
+.navegacao>li>a>i:hover {
+    color: orange !important;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-around; 
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.rodape>i:hover {
+    color: orange !important;
+}
