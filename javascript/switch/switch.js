@@ -95,3 +95,16 @@
 // Se você esquecer o break
 // O switch vai “vazar” para o próximo caso — isso se chama fall-through:
 // Porque sem break, ele executa todos os próximos casos após o primeiro que deu match.
+
+let fruta = ['maçã' , 'banana' ,  'laranja'][Math.floor(Math.random() * 3)];
+
+switch(fruta) {
+    case 'maçã':
+        console.log("Você escolheu maçã.");
+    case 'banana':
+        console.log("Você escolheu banana.");
+    case 'laranja':
+        console.log("Você escolheu laranja.");
+    default:
+        console.log("Escolha uma fruta válida.");
+}

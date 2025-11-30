@@ -19,8 +19,15 @@
 //  numero++
 // }
 
+// let numero = 5
+// let numero2= 3
+// for(let i = 1; i <= 10; i++){
+    // console.log('a multi e ' + numero + ' X ' + i + ' = ' + (numero * i ) )
+// }
+
+
 let numero = 5
-let numero2= 3
-for(let i = 1; i <= 10; i++){
-    console.log('a multi e ' + numero + ' X ' + i + ' = ' + (numero * i ) )
+let numero2 = 3
+for(i = 1 ; i <= 10; i++){
+    console.log(` a multi de de ${numero} X ${i} = ${numero * i}`)
 }
