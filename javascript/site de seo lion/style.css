@@ -1,0 +1,126 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    color: #333333;
+    background-color: #000000;
+}
+
+.titulo-01 {
+    font-family: 'Arial', sans-serif;
+    font-size: 12px;
+    color: #333333;
+    line-height: 1.5;
+    margin: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.paragrafo-01 {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    color: #333333;
+    line-height: 1.5;
+    margin: 20px;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    text-align: center;
+}
+
+.img-01 {
+    display: block;
+    margin: 0 auto;
+    width: 350px;
+    height: auto;
+}
+
+.div-02{
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px;
+}
+
+.class-02{
+font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.paragrafo-02 {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    color: #333333;
+    line-height: 1.5;
+    margin: 20px;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    text-align: center;
+}
+.img-02{
+    display: block;
+    margin: 0 auto;
+    width: 350px;
+    height: auto;
+}
+
+.div-03{
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px;
+}
+
+.paragrafo-03 {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    color: #333333;
+    line-height: 1.5;
+    margin: 20px;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    text-align: center;
+}
+
+.class-03{
+font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-around; 
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.rodape iframe {
+    width: 100%;
+    max-width: 400px;
+    height: 225px;
+    margin-top: 10px;
+}
+
+.logos{
+    list-style: none;
+    background-color: #e7dfdf38;
+    display: flex;
+    justify-content: space-around;
+}
+
+li:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+    animation: pulse 1s infinite;
+}
