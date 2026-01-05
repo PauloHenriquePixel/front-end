@@ -96,15 +96,31 @@
 // O switch vai “vazar” para o próximo caso — isso se chama fall-through:
 // Porque sem break, ele executa todos os próximos casos após o primeiro que deu match.
 
-let fruta = ['maçã' , 'banana' ,  'laranja'][Math.floor(Math.random() * 3)];
+// let fruta = ['maçã' , 'banana' ,  'laranja'][Math.floor(Math.random() * 3)];
 
-switch(fruta) {
-    case 'maçã':
-        console.log("Você escolheu maçã.");
-    case 'banana':
-        console.log("Você escolheu banana.");
-    case 'laranja':
-        console.log("Você escolheu laranja.");
+// switch(fruta) {
+//     case 'maçã':
+//         console.log("Você escolheu maçã.");
+//     case 'banana':
+//         console.log("Você escolheu banana.");
+//     case 'laranja':
+//         console.log("Você escolheu laranja.");
+//     default:
+//         console.log("Escolha uma fruta válida.");
+// }
+
+let frutas = ['pera', 'uva', 'abacaxi'][Math.floor(Math.random() * 3)];
+switch(frutas) {
+    case 'pera':
+        console.log("você escolheu pera");
+        break;
+    case 'uva':
+        console.log("você escolheu uva");
+        break;
+    case 'abacaxi':
+        console.log("você escolheu abacaxi");
+        break;
     default:
-        console.log("Escolha uma fruta válida.");
+        console.log("fruta não identificada");
 }
+// Neste exemplo, se a fruta escolhida for 'maçã', ele vai imprimir todas as mensagens seguintes porque não há break após cada case.

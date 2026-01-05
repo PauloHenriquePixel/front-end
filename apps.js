@@ -61,5 +61,5 @@
 
 // let resultado = 20 > 10
 // console.log(resultado)
-
+// console.log(typeof(resultado))
 
