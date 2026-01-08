@@ -6,10 +6,8 @@ export default function Home() {
   return (
     <div>
       <h1>Página Principal</h1>
-      <Teste />
-      <Sobre />
-      <Teste3 nome="Componente Teste 3 com props" sobrenome="Sobrenome do Componente" />
-      <Contador />
+      <Contador inicial={0}   />
+      <Contador inicial={10} />
     </div>
   );
 }
