@@ -4,10 +4,9 @@ import Teste3 from "@/components/teste3/teste3";
 import Contador from "@/components/contador/contador";
 export default function Home() {
   return (
-    <div>
-      <h1 className="text-center p-3 text-cyan-500 text-2xl">Página Principal</h1>
-      <Contador inicial={0}   />
-      <Contador inicial={10} />
+    <div className="">
+    <h1>Sobre a loja</h1>
+    <h2>Esta é a página sobre a loja</h2>
     </div>
   );
 }
