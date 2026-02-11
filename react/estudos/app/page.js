@@ -7,6 +7,7 @@ export default function Home() {
     <div className="">
     <h1>Sobre a loja</h1>
     <h2>Esta é a página sobre a loja</h2>
+    <Contador inicial={0} />
     </div>
   );
 }
